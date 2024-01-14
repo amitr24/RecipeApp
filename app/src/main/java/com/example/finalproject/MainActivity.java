@@ -99,7 +99,7 @@ public class MainActivity extends AppCompatActivity implements FoodAdapter.OnIte
     private ArrayList<String> readyTimes= new ArrayList<String>();
     private ArrayList<String> foodImageUrls = new ArrayList<String>();
     private ArrayList<String> names= new ArrayList<String>();
-    private static String API_KEY = "apiKey=e32a523e97b84640870f3e7ff45b7112";
+    private static String API_KEY = ""; //Insert API KEY
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
